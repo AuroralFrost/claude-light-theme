@@ -7,6 +7,14 @@
   "author": "Leo",
   "license": "MIT",
   "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AuroralFrost/claude-light-theme.git"
+  },
+  "homepage": "https://github.com/AuroralFrost/claude-light-theme#readme",
+  "bugs": {
+    "url": "https://github.com/AuroralFrost/claude-light-theme/issues"
+  },
   "engines": {
     "vscode": "^1.103.0"
   },
