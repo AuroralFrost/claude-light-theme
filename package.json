@@ -1,0 +1,42 @@
+{
+  "name": "claude-light-theme",
+  "displayName": "Claude Light Theme",
+  "description": "A warm and comfortable light theme inspired by Claude AI's web interface",
+  "version": "0.0.1",
+  "publisher": "Lumidew",
+  "author": "Leo",
+  "license": "MIT",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "claude theme",
+    "theme",
+    "light theme",
+    "claude",
+    "ai",
+    "comfortable",
+    "warm",
+    "productivity"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Claude Light Theme",
+        "uiTheme": "vs",
+        "path": "./themes/claude-light-theme-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}

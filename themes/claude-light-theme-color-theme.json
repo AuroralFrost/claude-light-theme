@@ -1,0 +1,151 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "claude-light-theme",
+  "type": "light",
+  "colors": {
+    // ---- 基础颜色 (Base Colors) ----
+    "foreground": "#1F1E1D", // 默认前景色
+    "focusBorder": "#1C6BBB", // 聚焦元素的边框
+    "widget.shadow": "#1F1E1D20", // UI 部件的阴影
+    "selection.background": "#1C6BBB40", // 文本选中背景
+    "errorForeground": "#D13438", // 错误颜色
+
+    // ---- 编辑器 (Editor) ----
+    "editor.background": "#FAF9F5", // 编辑器背景，使用最主要的米白色
+    "editor.foreground": "#1F1E1D", // 编辑器文本，使用深棕灰色
+    "editor.lineHighlightBackground": "#F5F4ED", // 当前行高亮
+    "editor.selectionBackground": "#1C6BBB33", // 选中区域背景
+    "editorCursor.foreground": "#C96442", // 光标颜色，使用陶土色
+    "editorWhitespace.foreground": "#1F1E1D40", // 空白字符颜色
+
+    // ---- 侧边栏 (Side Bar) ----
+    "sideBar.background": "#F5F4ED", // 侧边栏背景
+    "sideBar.foreground": "#1F1E1D99",
+    "sideBar.border": "#1F1E1D26", // 侧边栏边框
+    "sideBarSectionHeader.background": "#F5F4ED",
+
+    // ---- 活动栏 (Activity Bar) ----
+    "activityBar.background": "#F5F4ED",
+    "activityBar.foreground": "#1F1E1D",
+    "activityBar.inactiveForeground": "#1F1E1D80",
+    "activityBar.border": "#1F1E1D26",
+    "activityBarBadge.background": "#C96442", // 活动栏徽章背景
+    "activityBarBadge.foreground": "#FFFFFF", // 徽章文字
+
+    // ---- 状态栏 (Status Bar) ----
+    "statusBar.background": "#F5F4ED",
+    "statusBar.foreground": "#1F1E1D99",
+    "statusBar.border": "#1F1E1D26",
+    "statusBar.noFolderBackground": "#F5F4ED", // 未打开文件夹时的背景
+    "statusBarItem.remoteBackground": "#C96442",
+    "statusBarItem.remoteForeground": "#FFFFFF",
+
+    // ---- 列表和树 (Lists & Trees) ----
+    "list.activeSelectionBackground": "#1C6BBB25", // 列表活动项背景
+    "list.activeSelectionForeground": "#1F1E1D",
+    "list.inactiveSelectionBackground": "#E8E6DC",
+    "list.focusBackground": "#1C6BBB20",
+    "list.hoverBackground": "#F5F4ED",
+
+    // ---- 按钮 (Buttons) ----
+    "button.background": "#C96442", // 按钮背景，对应你的 .run-button
+    "button.foreground": "#FFFFFF", // 按钮文字
+    "button.hoverBackground": "#D67A5A", // 按钮悬浮颜色
+
+    // ---- 输入框 (Input) ----
+    "input.background": "#FFFFFF",
+    "input.border": "#CCCCCC", // 对应 .prompt-input-wrapper
+    "input.placeholderForeground": "#1F1E1D80",
+    "inputOption.activeBackground": "#1C6BBB", // 对应 .mdc-switch__track::after
+    "inputOption.activeBorder": "#1C6BBB",
+
+    // ---- 标题栏 (Title Bar) ----
+    "titleBar.activeBackground": "#F5F4ED",
+    "titleBar.activeForeground": "#1F1E1D",
+    "titleBar.inactiveBackground": "#F5F4ED",
+    "titleBar.inactiveForeground": "#1F1E1D99",
+    "titleBar.border": "#1F1E1D26"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#6F6F78", // 注释：中性灰色
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage.modifier",
+        "keyword.operator.new",
+        "keyword.operator.delete",
+        "keyword.operator.logical"
+      ],
+      "settings": {
+        "foreground": "#D73A83" // 关键词 (for, if, return): 粉红色
+      }
+    },
+    {
+      "scope": [
+        "storage.type",
+        "entity.name.type",
+        "entity.name.class",
+        "support.type",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#8A46CE" // 类型 (vector, int, Solution): 紫色
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#1F6FE4" // 函数名 (twoSum): 蓝色
+      }
+    },
+    {
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#2D8F8F" // 数字 (0, 1): 蓝绿色/青色
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#26831A" // 字符串 (截图中没有，选一个和谐的绿色)
+      }
+    },
+    {
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "#B56613" // 函数参数 (nums, target): 橙棕色
+      }
+    },
+    {
+      "scope": ["variable", "meta.definition.variable"],
+      "settings": {
+        "foreground": "#1F1E1D" // 普通变量 (complement, i, j): 默认文本色
+      }
+    },
+    {
+      "scope": ["keyword.control.directive.include", "punctuation.definition.directive"],
+      "settings": {
+        "foreground": "#D73A83", // #include: 粉红色
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": ["string.include", "punctuation.definition.string.begin.include", "punctuation.definition.string.end.include"],
+      "settings": {
+        "foreground": "#2D8F8F" // <vector>, <iostream>: 蓝绿色/青色
+      }
+    },
+    {
+      "scope": "punctuation",
+      "settings": {
+        "foreground": "#1F1E1D" // 标点符号 (;, {, }): 默认文本色
+      }
+    }
+  ]
+}
