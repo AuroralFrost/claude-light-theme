@@ -7,13 +7,14 @@ A Visual Studio Code theme inspired by the clean, warm, and focused interface of
 
 This theme is designed for those who appreciate a calm, minimalist, and readable environment. It uses a warm, off-white background and a carefully selected palette for syntax highlighting to reduce eye strain and improve code comprehension.
 
-![Current Directory Screenshot](Screenshots.jpg)
+![Current Directory Screenshot](https://github.com/AuroralFrost/claude-light-theme/blob/main/Screenshots.jpg)
 
 ---
 
 ## Features
 
 - **Warm & Focused UI**: A gentle, paper-like background (`#FAF9F5`) that's easy on the eyes during long coding sessions.
+- **Enhanced HTML/CSS Support**: Comprehensive syntax highlighting for web development with proper color-coding for tags, attributes, properties, and values.
 - **Harmonious Highlighting**: Syntax colors are carefully tuned to be clear and aesthetically pleasing, inspired by Claude's official palette.
 - **Consistent Design**: Provides a cohesive look and feel across the entire VS Code workbench, from the editor to the terminal.
 - **Clarity First**: The color scheme prioritizes readability and semantic meaning, helping you understand your code at a glance.
@@ -27,13 +28,21 @@ This theme is designed for those who appreciate a calm, minimalist, and readable
 - **Emphasis**: `#C96442` (Terracotta Orange)
 
 ### Syntax Highlighting
-- **Keywords**: `#D73A83`
-- **Types & Classes**: `#8A46CE`
-- **Functions**: `#1F6FE4`
-- **Numbers & Constants**: `#2D8F8F`
-- **Parameters**: `#B56613`
-- **Strings**: `#26831A`
-- **Comments**: `#6F6F78`
+- **Keywords**: `#D73A83` (Pink)
+- **Types & Classes**: `#8A46CE` (Purple)
+- **Functions**: `#1F6FE4` (Blue)
+- **Numbers & Constants**: `#2D8F8F` (Cyan)
+- **Parameters**: `#B56613` (Orange-Brown)
+- **Strings**: `#26831A` (Green)
+- **Comments**: `#6F6F78` (Gray)
+
+### HTML & CSS Support
+- **HTML Tags**: `#D73A83` (Pink)
+- **HTML Attributes**: `#1F6FE4` (Blue)
+- **HTML Values**: `#26831A` (Green)
+- **CSS Properties**: `#B56613` (Orange-Brown)
+- **CSS Values**: `#2D8F8F` (Cyan)
+- **CSS Selectors**: `#8A46CE` (Purple)
 
 ## Installation
 

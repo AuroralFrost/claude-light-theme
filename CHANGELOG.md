@@ -2,6 +2,23 @@
 
 All notable changes to the "Claude Light Theme" extension will be documented in this file.
 
+## [0.0.2] - 2025-08-21
+
+### Added
+- Enhanced HTML syntax highlighting support
+  - HTML tag names (`<html>`, `<head>`, `<body>`) in pink
+  - HTML attribute names (`lang`, `charset`) in blue
+  - HTML attribute values (`"zh-CN"`, `"UTF-8"`) in green
+  - HTML tag brackets (`<`, `>`) in gray
+- Improved CSS syntax highlighting support
+  - CSS property names (`margin`, `padding`, `display`) in orange-brown
+  - CSS property values (`0`, `flex`, `100vh`) in cyan
+  - CSS selectors (`body`, `.class`, `#id`) in purple
+  - CSS punctuation (`:`, `;`, `{}`) properly styled
+
+### Fixed
+- Fixed relative image path warning in README.md
+
 ## [0.0.1] - 2025-08-21
 
 ### Added

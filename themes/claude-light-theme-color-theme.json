@@ -146,6 +146,93 @@
       "settings": {
         "foreground": "#1F1E1D" // 标点符号 (;, {, }): 默认文本色
       }
+    },
+    {
+      "scope": [
+        "entity.name.tag",
+        "meta.tag.sgml.html",
+        "markup.deleted.git_gutter"
+      ],
+      "settings": {
+        "foreground": "#D73A83" // HTML标签名 (<html>, <head>, <body>): 粉红色
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name",
+        "entity.other.attribute-name.html"
+      ],
+      "settings": {
+        "foreground": "#1F6FE4" // HTML属性名 (lang, charset): 蓝色
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.double.html",
+        "string.quoted.single.html",
+        "punctuation.definition.string.begin.html",
+        "punctuation.definition.string.end.html"
+      ],
+      "settings": {
+        "foreground": "#26831A" // HTML属性值 ("zh-CN", "UTF-8"): 绿色
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
+      ],
+      "settings": {
+        "foreground": "#6F6F78" // HTML标签括号 (<, >): 灰色
+      }
+    },
+    {
+      "scope": [
+        "support.type.property-name.css",
+        "meta.property-name.css"
+      ],
+      "settings": {
+        "foreground": "#B56613" // CSS属性名 (margin, padding, display): 橙棕色
+      }
+    },
+    {
+      "scope": [
+        "support.constant.property-value.css",
+        "meta.property-value.css",
+        "constant.numeric.css",
+        "keyword.other.unit.css"
+      ],
+      "settings": {
+        "foreground": "#2D8F8F" // CSS属性值 (0, flex, 100vh): 蓝绿色
+      }
+    },
+    {
+      "scope": [
+        "punctuation.separator.key-value.css",
+        "punctuation.terminator.rule.css"
+      ],
+      "settings": {
+        "foreground": "#1F1E1D" // CSS冒号和分号: 默认文本色
+      }
+    },
+    {
+      "scope": [
+        "punctuation.section.property-list.begin.css",
+        "punctuation.section.property-list.end.css"
+      ],
+      "settings": {
+        "foreground": "#6F6F78" // CSS大括号: 灰色
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag.css",
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.id.css"
+      ],
+      "settings": {
+        "foreground": "#8A46CE" // CSS选择器 (body, .class, #id): 紫色
+      }
     }
   ]
 }
