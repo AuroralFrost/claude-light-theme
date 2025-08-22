@@ -1,8 +1,8 @@
 {
-  "name": "claude-light-theme",
-  "displayName": "Claude Light Theme",
-  "description": "A warm and comfortable light theme inspired by Claude AI's web interface",
-  "version": "0.0.2",
+  "name": "claude-theme",
+  "displayName": "Claude Theme",
+  "description": "A warm and comfortable theme pack inspired by Claude AI's web interface, includes both light and dark variants",
+  "version": "0.0.3",
   "publisher": "Lumidew",
   "author": "Leo",
   "license": "MIT",
@@ -25,6 +25,7 @@
     "claude theme",
     "theme",
     "light theme",
+    "dark theme",
     "claude",
     "ai",
     "comfortable",
@@ -37,6 +38,11 @@
         "label": "Claude Light Theme",
         "uiTheme": "vs",
         "path": "./themes/claude-light-theme-color-theme.json"
+      },
+      {
+        "label": "Claude Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/claude-dark-theme-color-theme.json"
       }
     ]
   },

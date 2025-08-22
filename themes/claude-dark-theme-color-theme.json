@@ -1,0 +1,277 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "claude-dark-theme",
+  "type": "dark",
+  "colors": {
+    // ---- 基础颜色 (Base Colors) ----
+    "foreground": "#F5F5F5", // 默认前景色 - claude-text-primary (dark)
+    "focusBorder": "#D97706", // 聚焦元素的边框 - claude-primary
+    "widget.shadow": "#00000040", // UI 部件的阴影 - claude-shadow (dark)
+    "selection.background": "#D9770626", // 文本选中背景 - 使用 claude-primary 透明
+    "errorForeground": "#DC2626", // 错误颜色 - claude-error
+
+    // ---- 编辑器 (Editor) ----
+    "editor.background": "#1A1A1A", // 编辑器背景 - claude-bg-primary (dark)
+    "editor.foreground": "#F5F5F5", // 编辑器文本 - claude-text-primary (dark)
+    "editor.lineHighlightBackground": "#2A2A2A", // 当前行高亮 - claude-bg-secondary (dark)
+    "editor.selectionBackground": "#D9770626", // 选中区域背景 - 使用 claude-primary 透明
+    "editorCursor.foreground": "#D97706", // 光标颜色 - claude-primary
+    "editorWhitespace.foreground": "#888888", // 空白字符颜色 - claude-text-muted (dark)
+
+    // ---- 侧边栏 (Side Bar) ----
+    "sideBar.background": "#333333", // 侧边栏背景 - claude-bg-card (dark)
+    "sideBar.foreground": "#B8B8B8", // 侧边栏文字 - claude-text-secondary (dark)
+    "sideBar.border": "#404040", // 侧边栏边框 - claude-bg-divider (dark)
+    "sideBarSectionHeader.background": "#333333", // 侧边栏节标题背景
+
+    // ---- 活动栏 (Activity Bar) ----
+    "activityBar.background": "#333333", // 活动栏背景 - claude-bg-card (dark)
+    "activityBar.foreground": "#F5F5F5", // 活动栏文字 - claude-text-primary (dark)
+    "activityBar.inactiveForeground": "#B8B8B8", // 非活动状态文字 - claude-text-secondary (dark)
+    "activityBar.border": "#404040", // 活动栏边框 - claude-bg-divider (dark)
+    "activityBarBadge.background": "#D97706", // 活动栏徽章背景 - claude-primary
+    "activityBarBadge.foreground": "#FFFFFF", // 徽章文字
+
+    // ---- 状态栏 (Status Bar) ----
+    "statusBar.background": "#222222", // 状态栏背景 - claude-bg-nav (dark)
+    "statusBar.foreground": "#B8B8B8", // 状态栏文字 - claude-text-secondary (dark)
+    "statusBar.border": "#404040", // 状态栏边框 - claude-bg-divider (dark)
+    "statusBar.noFolderBackground": "#222222", // 未打开文件夹时的背景
+    "statusBarItem.remoteBackground": "#D97706", // 远程状态背景 - claude-primary
+    "statusBarItem.remoteForeground": "#FFFFFF", // 远程状态文字
+
+    // ---- 列表和树 (Lists & Trees) ----
+    "list.activeSelectionBackground": "#D9770626", // 列表活动项背景 - 使用 claude-primary 透明
+    "list.activeSelectionForeground": "#F5F5F5", // 活动项文字 - claude-text-primary (dark)
+    "list.inactiveSelectionBackground": "#2A2A2A", // 非活动选中背景 - claude-bg-secondary (dark)
+    "list.focusBackground": "#D9770620", // 聚焦背景 - 使用 claude-primary 更透明
+    "list.hoverBackground": "#1A1A1A", // 悬停背景 - claude-bg-primary (dark)
+
+    // ---- 按钮 (Buttons) ----
+    "button.background": "#D97706", // 按钮背景 - claude-primary
+    "button.foreground": "#FFFFFF", // 按钮文字 - 白色
+    "button.hoverBackground": "#B45309", // 按钮悬浮颜色 - claude-primary-hover
+
+    // ---- 输入框 (Input) ----
+    "input.background": "#333333", // 输入框背景 - claude-bg-card (dark)
+    "input.border": "#404040", // 输入框边框 - claude-bg-divider (dark)
+    "input.placeholderForeground": "#888888", // 占位符文字 - claude-text-muted (dark)
+    "inputOption.activeBackground": "#D97706", // 活动选项背景 - claude-primary
+    "inputOption.activeBorder": "#D97706", // 活动选项边框 - claude-primary
+
+    // ---- 标题栏 (Title Bar) ----
+    "titleBar.activeBackground": "#222222", // 活动标题栏背景 - claude-bg-nav (dark)
+    "titleBar.activeForeground": "#F5F5F5", // 活动标题栏文字 - claude-text-primary (dark)
+    "titleBar.inactiveBackground": "#222222", // 非活动标题栏背景
+    "titleBar.inactiveForeground": "#B8B8B8", // 非活动标题栏文字 - claude-text-secondary (dark)
+    "titleBar.border": "#404040", // 标题栏边框 - claude-bg-divider (dark)
+
+    // ---- 面板 (Panel) ----
+    "panel.background": "#1A1A1A", // 面板背景 - claude-bg-primary (dark)
+    "panel.border": "#404040", // 面板边框 - claude-bg-divider (dark)
+    "panelTitle.activeForeground": "#F5F5F5", // 活动面板标题 - claude-text-primary (dark)
+    "panelTitle.inactiveForeground": "#B8B8B8", // 非活动面板标题 - claude-text-secondary (dark)
+
+    // ---- 标签页 (Tabs) ----
+    "tab.activeBackground": "#1A1A1A", // 活动标签页背景 - claude-bg-primary (dark)
+    "tab.activeForeground": "#F5F5F5", // 活动标签页文字 - claude-text-primary (dark)
+    "tab.inactiveBackground": "#2A2A2A", // 非活动标签页背景 - claude-bg-secondary (dark)
+    "tab.inactiveForeground": "#B8B8B8", // 非活动标签页文字 - claude-text-secondary (dark)
+    "tab.border": "#404040", // 标签页边框 - claude-bg-divider (dark)
+
+    // ---- 编辑器组 (Editor Group) ----
+    "editorGroup.border": "#404040", // 编辑器组边框 - claude-bg-divider (dark)
+    "editorGroupHeader.tabsBackground": "#2A2A2A", // 标签页容器背景 - claude-bg-secondary (dark)
+
+    // ---- 滚动条 (Scrollbar) ----
+    "scrollbarSlider.background": "#40404060", // 滚动条滑块背景
+    "scrollbarSlider.hoverBackground": "#40404080", // 滚动条滑块悬停背景
+    "scrollbarSlider.activeBackground": "#404040", // 滚动条滑块活动背景
+
+    // ---- 菜单 (Menu) ----
+    "menu.background": "#333333", // 菜单背景 - claude-bg-card (dark)
+    "menu.foreground": "#F5F5F5", // 菜单文字 - claude-text-primary (dark)
+    "menu.selectionBackground": "#D9770626", // 菜单选中背景
+    "menu.selectionForeground": "#F5F5F5", // 菜单选中文字
+    "menu.border": "#404040", // 菜单边框 - claude-bg-divider (dark)
+
+    // ---- 通知 (Notifications) ----
+    "notifications.background": "#333333", // 通知背景 - claude-bg-card (dark)
+    "notifications.foreground": "#F5F5F5", // 通知文字 - claude-text-primary (dark)
+    "notifications.border": "#404040", // 通知边框 - claude-bg-divider (dark)
+
+    // ---- 下拉菜单 (Dropdown) ----
+    "dropdown.background": "#333333", // 下拉菜单背景 - claude-bg-card (dark)
+    "dropdown.border": "#404040", // 下拉菜单边框 - claude-bg-divider (dark)
+    "dropdown.foreground": "#F5F5F5" // 下拉菜单文字 - claude-text-primary (dark)
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#888888", // 注释：暗色模式下的中性灰色
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage.modifier",
+        "keyword.operator.new",
+        "keyword.operator.delete",
+        "keyword.operator.logical"
+      ],
+      "settings": {
+        "foreground": "#FF6B9D" // 关键词 (for, if, return): 适合暗色模式的粉红色
+      }
+    },
+    {
+      "scope": [
+        "storage.type",
+        "entity.name.type",
+        "entity.name.class",
+        "support.type",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#C197FF" // 类型 (vector, int, Solution): 适合暗色模式的紫色
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#5AA3FF" // 函数名 (twoSum): 适合暗色模式的蓝色
+      }
+    },
+    {
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#4ECDC4" // 数字 (0, 1): 适合暗色模式的青色
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#5CDB95" // 字符串: 适合暗色模式的绿色
+      }
+    },
+    {
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "#FFB84D" // 函数参数 (nums, target): 适合暗色模式的橙色
+      }
+    },
+    {
+      "scope": ["variable", "meta.definition.variable"],
+      "settings": {
+        "foreground": "#F5F5F5" // 普通变量: 默认文本色
+      }
+    },
+    {
+      "scope": ["keyword.control.directive.include", "punctuation.definition.directive"],
+      "settings": {
+        "foreground": "#FF6B9D", // #include: 适合暗色模式的粉红色
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": ["string.include", "punctuation.definition.string.begin.include", "punctuation.definition.string.end.include"],
+      "settings": {
+        "foreground": "#4ECDC4" // <vector>, <iostream>: 适合暗色模式的青色
+      }
+    },
+    {
+      "scope": "punctuation",
+      "settings": {
+        "foreground": "#F5F5F5" // 标点符号: 默认文本色
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag",
+        "meta.tag.sgml.html",
+        "markup.deleted.git_gutter"
+      ],
+      "settings": {
+        "foreground": "#FF6B9D" // HTML标签名: 适合暗色模式的粉红色
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name",
+        "entity.other.attribute-name.html"
+      ],
+      "settings": {
+        "foreground": "#5AA3FF" // HTML属性名: 适合暗色模式的蓝色
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.double.html",
+        "string.quoted.single.html",
+        "punctuation.definition.string.begin.html",
+        "punctuation.definition.string.end.html"
+      ],
+      "settings": {
+        "foreground": "#5CDB95" // HTML属性值: 适合暗色模式的绿色
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
+      ],
+      "settings": {
+        "foreground": "#888888" // HTML标签括号: 暗色模式下的灰色
+      }
+    },
+    {
+      "scope": [
+        "support.type.property-name.css",
+        "meta.property-name.css"
+      ],
+      "settings": {
+        "foreground": "#FFB84D" // CSS属性名: 适合暗色模式的橙色
+      }
+    },
+    {
+      "scope": [
+        "support.constant.property-value.css",
+        "meta.property-value.css",
+        "constant.numeric.css",
+        "keyword.other.unit.css"
+      ],
+      "settings": {
+        "foreground": "#4ECDC4" // CSS属性值: 适合暗色模式的青色
+      }
+    },
+    {
+      "scope": [
+        "punctuation.separator.key-value.css",
+        "punctuation.terminator.rule.css"
+      ],
+      "settings": {
+        "foreground": "#F5F5F5" // CSS冒号和分号: 默认文本色
+      }
+    },
+    {
+      "scope": [
+        "punctuation.section.property-list.begin.css",
+        "punctuation.section.property-list.end.css"
+      ],
+      "settings": {
+        "foreground": "#888888" // CSS大括号: 暗色模式下的灰色
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag.css",
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.id.css"
+      ],
+      "settings": {
+        "foreground": "#C197FF" // CSS选择器: 适合暗色模式的紫色
+      }
+    }
+  ]
+}

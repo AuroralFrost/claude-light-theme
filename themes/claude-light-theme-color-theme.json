@@ -4,67 +4,68 @@
   "type": "light",
   "colors": {
     // ---- 基础颜色 (Base Colors) ----
-    "foreground": "#1F1E1D", // 默认前景色
-    "focusBorder": "#1C6BBB", // 聚焦元素的边框
-    "widget.shadow": "#1F1E1D20", // UI 部件的阴影
-    "selection.background": "#1C6BBB40", // 文本选中背景
-    "errorForeground": "#D13438", // 错误颜色
+    "foreground": "#1F2937", // 默认前景色 - 更新为 claude-text-primary
+    "focusBorder": "#D97706", // 聚焦元素的边框 - 更新为 claude-primary
+    "widget.shadow": "#00000014", // UI 部件的阴影 - 更新为 claude-shadow
+    "selection.background": "#D9770626", // 文本选中背景 - 使用 claude-primary 透明
+    "errorForeground": "#DC2626", // 错误颜色 - 更新为 claude-error
 
     // ---- 编辑器 (Editor) ----
-    "editor.background": "#FAF9F5", // 编辑器背景，使用最主要的米白色
-    "editor.foreground": "#1F1E1D", // 编辑器文本，使用深棕灰色
-    "editor.lineHighlightBackground": "#F5F4ED", // 当前行高亮
-    "editor.selectionBackground": "#1C6BBB33", // 选中区域背景
-    "editorCursor.foreground": "#C96442", // 光标颜色，使用陶土色
-    "editorWhitespace.foreground": "#1F1E1D40", // 空白字符颜色
+    // "editor.background": "#FFFFFF", // 编辑器背景 - 更新为 claude-bg-primary
+    "editor.background": "#FFFBF5", // 编辑器背景 - 更新为 claude-bg-primary
+    "editor.foreground": "#1F2937", // 编辑器文本 - 更新为 claude-text-primary
+    "editor.lineHighlightBackground": "#FEF7ED", // 当前行高亮 - 更新为 claude-bg-secondary
+    "editor.selectionBackground": "#D9770626", // 选中区域背景 - 使用 claude-primary 透明
+    "editorCursor.foreground": "#D97706", // 光标颜色 - 保持 claude-primary
+    "editorWhitespace.foreground": "#9CA3AF", // 空白字符颜色 - 更新为 claude-text-muted
 
     // ---- 侧边栏 (Side Bar) ----
-    "sideBar.background": "#F5F4ED", // 侧边栏背景
-    "sideBar.foreground": "#1F1E1D99",
-    "sideBar.border": "#1F1E1D26", // 侧边栏边框
-    "sideBarSectionHeader.background": "#F5F4ED",
+    "sideBar.background": "#FFFBF5", // 侧边栏背景 - 更新为 claude-bg-primary
+    "sideBar.foreground": "#6B7280", // 侧边栏文字 - 更新为 claude-text-secondary
+    "sideBar.border": "#F3E8DB", // 侧边栏边框 - 更新为 claude-bg-divider
+    "sideBarSectionHeader.background": "#FFFBF5", // 侧边栏节标题背景
 
     // ---- 活动栏 (Activity Bar) ----
-    "activityBar.background": "#F5F4ED",
-    "activityBar.foreground": "#1F1E1D",
-    "activityBar.inactiveForeground": "#1F1E1D80",
-    "activityBar.border": "#1F1E1D26",
-    "activityBarBadge.background": "#C96442", // 活动栏徽章背景
+    "activityBar.background": "#FFFBF5", // 活动栏背景 - 更新为 claude-bg-primary
+    "activityBar.foreground": "#1F2937", // 活动栏文字 - 更新为 claude-text-primary
+    "activityBar.inactiveForeground": "#6B7280", // 非活动状态文字 - 更新为 claude-text-secondary
+    "activityBar.border": "#F3E8DB", // 活动栏边框 - 更新为 claude-bg-divider
+    "activityBarBadge.background": "#D97706", // 活动栏徽章背景 - 保持 claude-primary
     "activityBarBadge.foreground": "#FFFFFF", // 徽章文字
 
     // ---- 状态栏 (Status Bar) ----
-    "statusBar.background": "#F5F4ED",
-    "statusBar.foreground": "#1F1E1D99",
-    "statusBar.border": "#1F1E1D26",
-    "statusBar.noFolderBackground": "#F5F4ED", // 未打开文件夹时的背景
-    "statusBarItem.remoteBackground": "#C96442",
-    "statusBarItem.remoteForeground": "#FFFFFF",
+    "statusBar.background": "#fdf9f0", // 状态栏背景 - 更新为 claude-bg-nav
+    "statusBar.foreground": "#6B7280", // 状态栏文字 - 更新为 claude-text-secondary
+    "statusBar.border": "#F3E8DB", // 状态栏边框 - 更新为 claude-bg-divider
+    "statusBar.noFolderBackground": "#fdf9f0", // 未打开文件夹时的背景
+    "statusBarItem.remoteBackground": "#D97706", // 远程状态背景 - 保持 claude-primary
+    "statusBarItem.remoteForeground": "#FFFFFF", // 远程状态文字
 
     // ---- 列表和树 (Lists & Trees) ----
-    "list.activeSelectionBackground": "#1C6BBB25", // 列表活动项背景
-    "list.activeSelectionForeground": "#1F1E1D",
-    "list.inactiveSelectionBackground": "#E8E6DC",
-    "list.focusBackground": "#1C6BBB20",
-    "list.hoverBackground": "#F5F4ED",
+    "list.activeSelectionBackground": "#D9770626", // 列表活动项背景 - 使用 claude-primary 透明
+    "list.activeSelectionForeground": "#1F2937", // 活动项文字 - 更新为 claude-text-primary
+    "list.inactiveSelectionBackground": "#FEF7ED", // 非活动选中背景 - 更新为 claude-bg-secondary
+    "list.focusBackground": "#FED7AA40", // 聚焦背景 - 使用 claude-primary-light 透明
+    "list.hoverBackground": "#FFFBF5", // 悬停背景 - 使用 claude-bg-primary
 
     // ---- 按钮 (Buttons) ----
-    "button.background": "#C96442", // 按钮背景，对应你的 .run-button
-    "button.foreground": "#FFFFFF", // 按钮文字
-    "button.hoverBackground": "#D67A5A", // 按钮悬浮颜色
+    "button.background": "#D97706", // 按钮背景 - 保持 claude-primary
+    "button.foreground": "#FFFFFF", // 按钮文字 - 保持白色
+    "button.hoverBackground": "#B45309", // 按钮悬浮颜色 - 更新为 claude-primary-hover
 
     // ---- 输入框 (Input) ----
-    "input.background": "#FFFFFF",
-    "input.border": "#CCCCCC", // 对应 .prompt-input-wrapper
-    "input.placeholderForeground": "#1F1E1D80",
-    "inputOption.activeBackground": "#1C6BBB", // 对应 .mdc-switch__track::after
-    "inputOption.activeBorder": "#1C6BBB",
+    "input.background": "#FFFFFF", // 输入框背景 - 保持 claude-bg-card
+    "input.border": "#F3E8DB", // 输入框边框 - 更新为 claude-bg-divider
+    "input.placeholderForeground": "#9CA3AF", // 占位符文字 - 更新为 claude-text-muted
+    "inputOption.activeBackground": "#D97706", // 活动选项背景 - 更新为 claude-primary
+    "inputOption.activeBorder": "#D97706", // 活动选项边框 - 更新为 claude-primary
 
     // ---- 标题栏 (Title Bar) ----
-    "titleBar.activeBackground": "#F5F4ED",
-    "titleBar.activeForeground": "#1F1E1D",
-    "titleBar.inactiveBackground": "#F5F4ED",
-    "titleBar.inactiveForeground": "#1F1E1D99",
-    "titleBar.border": "#1F1E1D26"
+    "titleBar.activeBackground": "#fdf9f0", // 活动标题栏背景 - 更新为 claude-bg-nav
+    "titleBar.activeForeground": "#1F2937", // 活动标题栏文字 - 更新为 claude-text-primary
+    "titleBar.inactiveBackground": "#fdf9f0", // 非活动标题栏背景
+    "titleBar.inactiveForeground": "#6B7280", // 非活动标题栏文字 - 更新为 claude-text-secondary
+    "titleBar.border": "#F3E8DB" // 标题栏边框 - 更新为 claude-bg-divider
   },
   "tokenColors": [
     {
