@@ -1,7 +1,7 @@
 # Claude Light Theme for VS Code
 
-[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/Lumidew.claude-light-theme?style=flat-square&label=Marketplace)](https://marketplace.visualstudio.com/items?itemName=Lumidew.claude-light-theme)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/Lumidew.claude-light-theme?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=Lumidew.claude-light-theme)
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/Lumidew.claude-color-theme?style=flat-square&label=Marketplace)](https://marketplace.visualstudio.com/items?itemName=Lumidew.claude-color-theme)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/Lumidew.claude-color-theme?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=Lumidew.claude-color-theme)
 
 A Visual Studio Code theme inspired by the clean, warm, and focused interface of Claude AI.
 

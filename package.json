@@ -1,8 +1,8 @@
 {
-  "name": "claude-theme",
+  "name": "claude-color-theme",
   "displayName": "Claude Theme",
   "description": "A warm and comfortable theme pack inspired by Claude AI's web interface, includes both light and dark variants",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "Lumidew",
   "author": "Leo",
   "license": "MIT",
@@ -16,7 +16,7 @@
     "url": "https://github.com/AuroralFrost/claude-light-theme/issues"
   },
   "engines": {
-    "vscode": "^1.103.0"
+    "vscode": "^1.99.0"
   },
   "categories": [
     "Themes"
