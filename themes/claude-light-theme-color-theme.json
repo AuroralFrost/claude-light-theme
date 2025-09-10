@@ -65,7 +65,47 @@
     "titleBar.activeForeground": "#1F2937", // 活动标题栏文字 - 更新为 claude-text-primary
     "titleBar.inactiveBackground": "#fdf9f0", // 非活动标题栏背景
     "titleBar.inactiveForeground": "#6B7280", // 非活动标题栏文字 - 更新为 claude-text-secondary
-    "titleBar.border": "#F3E8DB" // 标题栏边框 - 更新为 claude-bg-divider
+    "titleBar.border": "#F3E8DB", // 标题栏边框 - 更新为 claude-bg-divider
+
+    // ---- Notebook ----
+    "notebook.cellBorderColor": "#D1D5DB", // 单元格边框颜色 - 明显的灰色边框
+    "notebook.focusedCellBorder": "#D97706", // 聚焦单元格边框 - claude-primary 橙色
+    "notebook.cellHoverBackground": "#F9FAFB", // 单元格悬停背景 - 浅灰色
+    "notebook.focusedEditorBorder": "#D97706", // 聚焦编辑器边框
+    "notebook.outputContainerBackgroundColor": "#F8FAFC", // 输出容器背景
+    "notebook.cellEditorBackground": "#FFFFFF", // 单元格编辑器背景 - 纯白色
+    "notebook.cellToolbarSeparator": "#E5E7EB", // 工具栏分隔符
+    "notebook.selectedCellBackground": "#FEF7ED", // 选中单元格背景 - 浅橙色
+    "notebook.selectedCellBorder": "#F59E0B", // 选中单元格边框
+    "notebook.symbolHighlightBackground": "#FEF3C7", // 符号高亮背景
+    "notebookStatusSuccessIcon.foreground": "#059669", // 成功图标颜色
+    "notebookStatusErrorIcon.foreground": "#DC2626", // 错误图标颜色
+    "notebookStatusRunningIcon.foreground": "#D97706", // 运行图标颜色
+
+    // ---- Chat / AI Assistant ----
+    "chat.slashCommandBackground": "#FEF7ED", // 斜杠命令背景
+    "chat.slashCommandForeground": "#D97706", // 斜杠命令文字
+    "chat.avatarBackground": "#F3E8DB", // 头像背景
+    "chat.avatarForeground": "#1F2937", // 头像文字
+    "chat.requestBackground": "#FFFFFF", // 用户请求背景
+    "chat.requestBorder": "#E5E7EB", // 用户请求边框
+
+    // ---- Panel (包含聊天面板) ----
+    "panel.background": "#FFFBF5", // 面板背景
+    "panel.border": "#F3E8DB", // 面板边框
+    "panel.dropBorder": "#D97706", // 拖拽边框
+    "panelTitle.activeBorder": "#D97706", // 活动面板标题边框
+    "panelTitle.activeForeground": "#1F2937", // 活动面板标题文字
+    "panelTitle.inactiveForeground": "#6B7280", // 非活动面板标题文字
+    "panelInput.border": "#D1D5DB", // 面板输入框边框
+
+    // ---- 终端 (Terminal) ----
+    "terminal.background": "#FFFBF5", // 终端背景
+    "terminal.foreground": "#1F2937", // 终端文字
+    "terminal.border": "#F3E8DB", // 终端边框
+    "terminal.selectionBackground": "#D9770626", // 终端选中背景
+    "terminalCursor.background": "#FFFBF5", // 终端光标背景
+    "terminalCursor.foreground": "#D97706" // 终端光标颜色
   },
   "tokenColors": [
     {
